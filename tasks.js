@@ -13,7 +13,7 @@ for (i = 0; i < 10; i++) {
 }
 console.log(`We found ${amount} numbers ${text}`);
 
-*/
+
 
 
 //this is how result need to look like (list of 3 objcets with two key-value pairs)
@@ -58,3 +58,39 @@ for (let i = 0; i < 10; i++) {
   }
 }
 console.log(`We found ${amount} numbers ${text}`);
+
+*/
+
+const person = {
+  firstNameeeeeeeeeeeeee : "Franzi",
+  lastName  : "Otto",
+  pets      : ["mika", "dio"],
+  colours   : {
+    best    : "blue",
+    second  : "red",
+  }
+};
+
+function callMyKey(anObject) {
+
+  for (let key in anObject) {  //wenn man mit in ins object geht bekommt man einen string zuruck
+    if (key === "pets") {
+
+
+      for (let abc of anObject[key]) {
+        console.log(abc);
+
+        if(abc.includes("mika")) {
+          console.log("yes");
+        } else {
+          console.log("no");
+        }
+      }
+    }
+  }
+}
+callMyKey(person)
+
+
+
+
