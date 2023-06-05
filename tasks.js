@@ -61,8 +61,58 @@ console.log(`We found ${amount} numbers ${text}`);
 
 */
 
+let text = "3hey5hello2hi";
+
+function isAValidMessage(message){
+  console.log(message);
+  
+  let array = [];
+  
+  let stringLetter = "";
+  let stringNumber = "";
+  
+  for (let i = 0; i < message.length; i++) {
+   
+    let sliced = message[i].slice(``);
+    array.push(sliced)
+    //console.log(result)
+
+    //search for the numbers
+    
+    let itsAMatch = sliced.match(/\d/g)
+    console.log(itsAMatch);
+
+    //TODO
+    /*
+    its a match als nummer abespeihcern,
+    its a match und array.length miteinander vergleichen
+    */
+
+    
+
+    
+      
+    
+  }
+    
+  
+  
+  
+  
+      
+  console.log(array);
+
+  return array
+  
+  // your code
+}
+isAValidMessage(text)
+
+
+
+/*
 const person = {
-  firstNameeeeeeeeeeeeee : "Franzi",
+  firstName : "Franzi",
   lastName  : "Otto",
   pets      : ["mika", "dio"],
   colours   : {
@@ -92,5 +142,4 @@ function callMyKey(anObject) {
 callMyKey(person)
 
 
-
-
+*/
