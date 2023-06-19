@@ -59,7 +59,7 @@ for (let i = 0; i < 10; i++) {
 }
 console.log(`We found ${amount} numbers ${text}`);
 
-*/
+
 
 let text = "3hey5hello2hi";
 
@@ -83,10 +83,10 @@ function isAValidMessage(message){
     console.log(itsAMatch);
 
     //TODO
-    /*
+    
     its a match als nummer abespeihcern,
     its a match und array.length miteinander vergleichen
-    */
+    
 
     
 
@@ -110,7 +110,7 @@ isAValidMessage(text)
 
 
 
-/*
+
 const person = {
   firstName : "Franzi",
   lastName  : "Otto",
@@ -140,6 +140,9 @@ function callMyKey(anObject) {
   }
 }
 callMyKey(person)
-
-
 */
+
+let numArray = 
+
+
+
