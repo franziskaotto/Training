@@ -62,7 +62,7 @@ console.log(`We found ${amount} numbers ${text}`);
 
 
 const person = {
-  firstNameeeeeeeeeeeeee : "Franzi",
+  firstName : "Franzi",
   lastName  : "Otto",
   pets      : ["mika", "dio"],
   colours   : {
@@ -90,7 +90,9 @@ function callMyKey(anObject) {
   }
 }
 callMyKey(person)
+*/
 
+let numArray = 
 
 */
 
